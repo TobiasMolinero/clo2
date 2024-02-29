@@ -1,0 +1,68 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background: linear-gradient(to bottom, #1a4791, #77c1e4, transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    transition: 0.45s;
+    padding: 0 20px;
+    font-family: var(--roboto);
+    z-index: 10;
+}
+
+.header_sticked{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: linear-gradient(to bottom, #1a4791, #17a2da);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    transition: 0.45s;
+    z-index: 10;
+    font-family: var(--roboto);
+    padding: 0 20px;
+
+}
+
+.logo_container{
+    width: 150px;
+}
+
+.nav{
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav ul>li a{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav ul>li a:hover{
+    color: var(--azul-oscuro);
+    font-weight: 400;
+}
+
+.boton_contacto{
+    width: 150px;
+}
+.boton_contacto a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+

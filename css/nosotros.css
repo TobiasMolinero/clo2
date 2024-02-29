@@ -1,0 +1,118 @@
+.nosotros{
+    padding: 100px 100px 0 100px;
+}
+
+.nosotros_intro h2{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 35px;
+    color: var(--azul-claro);
+}
+.nosotros_intro p{
+    margin-top: 10px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    line-height: 25px;
+    color: #333333;
+}
+
+.nosotros_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info{
+    display: flex;
+    height: 400px;
+}
+
+.info_imagen{
+    width: 50%;
+}
+.info_imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -10px 15px 0 5px var(--verde-claro);
+}
+
+.info_texto{
+    width: 50%;
+    padding-left: 20px;
+}
+.info_texto h3{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--verde);
+}
+.info_texto p{
+    margin-top: 10px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    color: #333333;
+    line-height: 20px;
+}
+.info_texto p span{
+    color: var(--azul-claro);
+}
+
+.exportacion{
+    background-image: linear-gradient(
+        to bottom,
+        #f0f0f0,
+        transparent
+        ),
+        url('../asset/World\ Map.svg');
+    background-size: cover;
+    display: flex;
+    gap: 10px;
+}
+
+.exportacion .info_texto{
+    padding-left: 0;
+}
+
+.exportacion img{
+    box-shadow: 10px 15px 0 5px var(--verde-claro);
+    
+}
+
+
+.certificaciones{
+    margin-top: 80px;
+}
+
+.certificaciones h2{
+    font-family: var(--poppins);
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--azul-claro);
+}
+.certificaciones .grid{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.certificaciones p{
+    text-align: center;
+    margin-top: 40px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    padding: 0 100px;
+}
+
+.certificacion .imagen_senasa{
+    width: 300px;
+    filter: drop-shadow(0 0 4px #222222);
+
+}
+.certificacion .imagen_oia{
+    filter: drop-shadow(0 0 1px #222222);
+
+}
+

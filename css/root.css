@@ -1,0 +1,23 @@
+
+:root{
+    scroll-behavior: smooth;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    --roboto: 'Roboto', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --verde: #aec24e;
+    --verde-claro: #ced89c;
+    --azul-oscuro: #001d79;
+    --azul-intermedio: #1a4791;
+    --azul-claro: #17a2da;
+    --celeste: #77c1e4;
+}
+
+body{
+    background: #f0f0f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

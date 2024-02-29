@@ -1,0 +1,21 @@
+.clientes_colaboradores{
+    padding: 80px 100px 0 100px;
+}
+
+.clientes_colaboradores h3{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--verde);
+    margin-bottom: 40px;
+}
+
+.clientes_colaboradores .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes, .colaboradores{
+    margin-bottom: 100px;
+}
